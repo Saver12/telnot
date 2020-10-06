@@ -1,6 +1,7 @@
 plugins {
     `java-gradle-plugin`
     `kotlin-dsl`
+    java
     id("org.jetbrains.kotlin.jvm") version "1.3.61"
 }
 

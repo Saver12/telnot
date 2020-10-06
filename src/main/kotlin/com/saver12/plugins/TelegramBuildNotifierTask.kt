@@ -33,7 +33,7 @@ open class TelegramBuildNotifierTask : DefaultTask() {
         try {
             bot.execute(message)
         } catch (e: Exception) {
-            logger.quiet("You have to specify correct 'botToken' and 'chatId' values in gradle.properties")
+            logger.quiet("You have to specify correct 'botToken' and 'chatNum' values in gradle.properties")
         }
     }
 }
